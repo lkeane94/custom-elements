@@ -43,6 +43,9 @@ http://www.mulesoft.org/schema/mule/json http://www.mulesoft.org/schema/mule/jso
         <component doc:name="Java">
             <singleton-object class="com.mulesoft.training.MuleComponent"/>
         </component>
+        <component doc:name="Java">
+            <singleton-object class="com.mulesoft.training.MuleLifecycleComponent"/>
+        </component>
   </flow>
 
 </mule>
